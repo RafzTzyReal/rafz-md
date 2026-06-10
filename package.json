@@ -1,0 +1,26 @@
+{
+  "name": "rafz-md",
+  "version": "1.0.0",
+  "description": "RAFZ MD - Professional Telegram Downloader & Uploader Bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf",
+    "downloader",
+    "uploader"
+  ],
+  "author": "RAFZ",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "telegraf": "^4.16.3"
+  }
+}
